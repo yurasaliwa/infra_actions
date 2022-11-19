@@ -26,7 +26,7 @@ jobs:
         # обновление pip
         python -m pip install --upgrade pip 
         # установка flake8 и его плагинов
-        pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort==5.0.2
+        pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort==4.2.0
         # установка зависимостей
         pip install -r requirements.txt 
 
